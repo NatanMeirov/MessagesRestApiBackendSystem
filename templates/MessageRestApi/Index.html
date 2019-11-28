@@ -30,7 +30,7 @@
                 <li>Every Message in the data base of the system do not have an indication who is the owner of the message, but the sender and the receiver. It can cause a problem while a User tries to delete a message (as a sender or as a receiver) - bacause it will automaticly delete the message from the system, no matter that there is another User in the system with the same message (as a receiver or as a sender). </li>
                 <li>The problem above could be solved easily with more time, and another Model.Field - that will give indication who is the OWNER of the message, and then create a DUPLICATE of that message in the system, while in the first message - the owner is the sender, and in the other message - the owner is the receiver. This solution will take some time that I do not have right now...</li>
                 <li>Another thing, is that the system CAN NOT handle a situation that a User send or receive a message with the same subject... It will cause a CONFLICT, so please - DON'T TRY IT!</li>
-                <li>Debug in On (settings.py: DEBUG = True)</li>
+                <li>Debug turned Off (settings.py: DEBUG = False)</li>
             </ul>
             <hr class="my-2">
             <h6><em>Final Words:</em></h6>
