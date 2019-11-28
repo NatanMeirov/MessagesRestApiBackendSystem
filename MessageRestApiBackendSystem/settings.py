@@ -25,9 +25,9 @@ STATIC_DIR = os.path.join(BASE_DIR, "static")
 SECRET_KEY = 'a!1s6i@))3(qm#sbm)iv9*edtxk)xn5p+js49)sx#xe0dkwq)x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://message-rest-api-backendsystem.herokuapp.com/"]
 
 
 # Application definition
